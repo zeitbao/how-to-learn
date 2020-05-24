@@ -59,6 +59,7 @@
   line-height: 25px;
   font-weight: 400;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -80,10 +81,384 @@
   top: 64px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.description {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+
+}
+
+.description-two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.description-two-columns__brief {
+  width: 175px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  color: #2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.description-two-columns__main-text {
+  min-width: 784px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 80%;
+}
+.description-two-columns__main-paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  min-width: 784px;
+  margin-bottom: 30px;
+}
+
+.two-columnns__paragraph-first {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.two-columnns__paragraph-second {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.two-columnns__paragraph-third {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.description-two-columns__span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+
+
+
+.digits {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.digits__section-title {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 60%;
+  text-align: center;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.digits__section-subtitle {
+  margin-top: 0;
+  margin-bottom: 0px;
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 400;
+  justify-content: center;
+}
+
+.digits-table {
+
+  width: 1100px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  justify-content: space-between;
+
+
+
+}
+
+
+.digits-table__cell {
+  width: 250px;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+
+}
+
+.digits-table__heading {
+  width: 250px;
+  margin-top: 60px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+.digits-table__text {
+  width: 250px;
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.feynman {
+  background-color: #f2f2f2;
+  position: relative;
+  display: block;
+  justify-content: center;
+  height: 790px;
+  align-items: center;
+  margin: 0 auto;
+  z-index: -1;
+  padding-top: 100px;
+
+}
+
+.feynman__title {
+  text-align: center;
+  z-index: 3;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  width: 648px;
+  margin: 0 auto;
+}
+
+.feynman__subtitle {
+  z-index: 2;
+  font-size: 36px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.feynman__link {
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
+
+.feynman__main-illustration {
+  height: 637px;
+  width: 867px;
+  position:absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
+.kaufman {
+background-color: #1f1f1f;
+padding-top: 90px;
+padding-bottom: 90px;
+position: relative;
+flex-direction: row;
+justify-content: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: column;
+overflow: hidden;
+z-index: -1;
+}
+
+.section-title {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.section-title_theme_dark {
+  font-size: 60px;
+  line-height: 69px;
+  font-weight: 600;
+  color: white;
+}
+
+.section-subtitle {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section-subtitle_theme_dark {
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  color: white;
+
+
+}
+
+.table_theme_dark {
+ margin: 0 auto;
+ padding-bottom: 90px;
+ padding-top: 80px;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ position: relative;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ width: 1100px;
+
+ padding: 0px;
+ z-index: 1;
+}
+
+
+
 .table__cell_theme_dark {
   width: 200px;
+  padding-left: 0;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+
+  padding-top: 80px;
+
+}
+
+.table__heading_theme_dark {
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  width: 200px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 20px;
+
+}
+
+
+.table__text_theme_dark {
+  color: white;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  overflow: hidden;
+  background-image: url(/Users/borynbassar/dev/how-to-learn/images/kaufman-triangle.svg);
+  width: 877px;
+  height: 877px;
+  z-index: 0;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  position: relative;
+  min-height: 350px;
+  min-width: 1100px;
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.footer__columns_content_copyright {
+  color: white;
+
+  display: block;
+  position: relative;
+}
+
+.footer__columns_content_info {
+  display: block;
+  flex-wrap: wrap;
+}
+
+.footer__columns_content_social {
+  display: block;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+  margin-top:0px;
+  display: block;
+}
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  flex-basis: 711px;
+}
+
+.footer__column_heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+
+
+}
+
+.footer__column_links {
+  display: block;
+
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 16px;
+  list-style: none;
+  padding-left: 0;
+
+
+}
+
+.footer__social_icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+
+
 }
