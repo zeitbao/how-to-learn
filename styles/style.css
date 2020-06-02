@@ -254,15 +254,13 @@
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: column;
   overflow: hidden;
   z-index: 1;
 }
 
 .section-title {
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -275,7 +273,7 @@
 
 .section-subtitle {
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
   margin-top: 20px;
 }
