@@ -288,7 +288,8 @@
 }
 
 .table_theme_dark {
- margin: 0 auto;
+ margin-left: auto;
+ margin-right: auto;
  padding-bottom: 90px;
  padding-top: 80px;
  position: relative;
@@ -328,7 +329,7 @@
   top: 0;
   right: -210px;
   overflow: hidden;
-  background-image: url(/images/kaufman-triangle.svg);
+  background-image: url(../images/kaufman-triangle.svg);
   width: 877px;
   height: 877px;
   z-index: 2;
@@ -346,26 +347,26 @@
 
 .footer__columns {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   justify-content: space-between;
   min-height: 300px;
+  width: 90%;
 }
 
 .footer__column_content_copyright {
   color: white;
-  display: flex-start;
   position: relative;
   flex-basis: 711px;
   justify-content: space-between;
   flex-direction: column;
-  align-self: flex-start;
+  display: flex;
 }
 
 .logo_place_footer {
   width: 183px;
   height: 35px;
   margin-top:0px;
+  background-image: url(images/logo_place_footer.svg);
 }
 
 .footer__author {
