@@ -1,0 +1,22 @@
+{
+  "name": "how-to-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeitbao/how-to-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeitbao/how-to-learn/issues"
+  },
+  "homepage": "https://github.com/zeitbao/how-to-learn#readme",
+  "devDependencies": {
+    "create-by-css": "github:tadatuta/bem-tools-create-by-css"
+  }
+}
