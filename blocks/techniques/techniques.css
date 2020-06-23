@@ -1,0 +1,11 @@
+.techniques {
+  width: 80%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}

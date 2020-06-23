@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bem-tools": "rm -rf blocks && ./node_modules/create-by-css/bin/create-by-css ./styles/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
