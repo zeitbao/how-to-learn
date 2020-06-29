@@ -2,7 +2,8 @@
   height:160px;
   width: 160px;
   border-radius: 50%;
-  padding-left: 40px;
-  padding-right: 40px;;
+  margin: 0 auto;
+  display: block;
+
 
 }

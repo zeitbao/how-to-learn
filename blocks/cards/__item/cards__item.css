@@ -1,9 +1,13 @@
-
 .cards__item {
-  padding-top: 60px;
-  padding-bottom: 60px;
   list-style: none;
-  align-content: center;
-  justify-content: center;
+  width: 240px;
+  margin-top: 60px;
+  margin-right: 50px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+
+
+
+
 
 }

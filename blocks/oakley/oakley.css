@@ -1,7 +1,8 @@
-.two-columns {
+.oakley {
+  position: relative;
   display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding-top: 160px;
+  padding-bottom: 80px;
 }

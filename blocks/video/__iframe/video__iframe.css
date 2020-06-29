@@ -1,0 +1,4 @@
+.video__iframe {
+column-gap: 20px;
+}
+:first-child { margin-right: 20px }

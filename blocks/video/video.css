@@ -1,7 +1,9 @@
-.two-columns {
+@import url("./__iframes/video__iframes.css");
+@import url("./__iframe/video__iframe.css");
+.video {
   display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+
 }

@@ -4,10 +4,10 @@
 @import url(./__title/cards__title.css);
 
 .cards {
-  width: 920px;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 0;
+  min-width: 920px;
+  display:flex;
   margin: 0 auto;
-  position: relative;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 0;
 }

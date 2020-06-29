@@ -1,3 +1,6 @@
+@import url("./__cell/table__cell.css");
+@import url("./__heading/table__heading.css");
+@import url("./__text/table__text.css");
 .table {
   width: 1100px;
   margin-top: 0px;

@@ -1,6 +1,8 @@
 .cards__description {
   width: 60%;
-  padding-top: 16px;
   text-align: center;
   margin: 0 auto;
+  line-height: 23px;
+  font-size: 18px;
+  font-weight: 400;
 }
