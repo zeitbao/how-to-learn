@@ -1,4 +1,7 @@
 .video__iframe {
-column-gap: 20px;
+  margin-right: 20px;
+  border: none;
 }
-:first-child { margin-right: 20px }
+.video__iframe:last-of-type {
+  margin-right: 0;
+}

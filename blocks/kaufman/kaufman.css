@@ -9,5 +9,5 @@
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
-  z-index: 1;
+  z-index: 6;
 }

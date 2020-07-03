@@ -4,8 +4,8 @@
   font-weight: 400;
   color: white;
 
-  width: 60%;
-  margin: 0 auto;
+  min-width: 60%;
+
   text-align: center;
   margin-top: 20px;
 }
