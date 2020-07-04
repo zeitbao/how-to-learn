@@ -4,5 +4,8 @@
   margin-top: 60px;
   margin-right: 50px;
   margin-bottom: 0px;
-  margin-left: 50px;
+}
+
+.cards__item:nth-child(3) {
+  margin-right: 0px;
 }

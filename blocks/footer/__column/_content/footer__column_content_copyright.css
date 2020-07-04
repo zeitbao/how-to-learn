@@ -4,4 +4,5 @@
   flex-basis: 711px;
   justify-content: space-between;
   flex-direction: column;
+  display: flex;
 }

@@ -10,12 +10,5 @@
 }
 
 .feynman__link:hover {
-  font-size: 36px;
-  line-height: 51px;
-  font-weight: 400;
-  text-decoration: none;
   color: blue;
-  position: absolute;
-  top: 50%;
-  right: 48px;
 }
