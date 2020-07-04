@@ -4,6 +4,8 @@
 @import url("./__columns/footer__columns.css");
 @import url("./__social-icon/footer__social-icon.css");
 @import url("./__column/footer__column.css");
+@import url("./__column-link/footer__column-link.css");
+
 .footer {
   background-color: #1f1f1f;
   padding-top: 60px;

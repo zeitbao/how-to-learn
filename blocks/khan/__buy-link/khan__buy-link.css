@@ -1,11 +1,8 @@
-.khan__buy-link {
+.khan__buy-link:hover {
   line-height: 42px;
   font-size: 30px;
   font-weight: 400;
   text-decoration: none;
-  color: #2f80ed;
-}
-
-a:hover {
-  color: #2f80ed;
+  color: #9cb4d3;
+  background-size: cover;
 }

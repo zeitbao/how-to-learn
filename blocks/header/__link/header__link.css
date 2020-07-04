@@ -1,11 +1,7 @@
-.header__link {
+.header__link::hover {
   font-size: 18px;
   line-height: 25px;
   font-weight: 400;
   text-decoration: none;
-  color: #2f80ed;
-}
-
-a:hover {
   color: #2f80ed;
 }

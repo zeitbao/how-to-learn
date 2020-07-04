@@ -10,6 +10,8 @@
   background-color: #f2f2f2;
   position: relative;
   display: flex;
-  align-items:center;
+  align-items: center;
+  overflow-x: hidden;
+
   /* выше установили ограничения для секции */
 }

@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
@@ -132,8 +131,6 @@
           <div class="video__iframes">
             <iframe
               class="video__iframe"
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -141,8 +138,6 @@
 
             <iframe
               class="video__iframe"
-              width="560"
-              height="315"
               src="https://www.youtube.com/embed/arj7oStGLkU"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -246,7 +241,11 @@
             <h4 class="khan__quote-author">Джордж Лукас</h4>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
-              <div class="khan__book-pic"></div>
+              <img
+                class="khan__book-pic"
+                src="images/khan-book.jpg"
+                alt="книга Салмана Хана"
+              />
               <a class="khan__buy-link" href="#">Купить книгу &#8594;</a>
             </div>
           </div>
@@ -340,16 +339,25 @@
           </p>
           <ul class="resources__logo-zone">
             <li class="resources__logo">
-              <img src="images/resources-arzamas.svg" alt="arzamas" />
+              <a href="#"
+                ><img src="images/resources-arzamas.svg" alt="арзамас"
+              /></a>
             </li>
+
             <li class="resources__logo">
-              <img src="images/resources-n1.svg" alt="n1" />
+              <a href="#"><img src="images/resources-n1.svg" alt="н1" /></a>
             </li>
+
             <li class="resources__logo">
-              <img src="images/resources-strelka.svg" alt="strelka" />
+              <a href="#"
+                ><img src="images/resources-strelka.svg" alt="стрелка"
+              /></a>
             </li>
+
             <li class="resources__logo">
-              <img src="images/resources-polka.svg" alt="polka" />
+              <a href="#"
+                ><img src="images/resources-polka.svg" alt="полка"
+              /></a>
             </li>
           </ul>
         </section>
@@ -368,13 +376,13 @@
             <h4 class="footer__column-heading">О Практикуме</h4>
             <ul class="footer__column-links">
               <li class="footer__list-item">
-                <a class="footer__column-link" href="#"></a>Главная
+                <a class="footer__column-link" href="#">Главная</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__column-link" href="#"></a>Концепция
+                <a class="footer__column-link" href="#">Концепция</a>
               </li>
               <li class="footer__list-item">
-                <a class="footer__column-link" href="#"></a>Наставники
+                <a class="footer__column-link" href="#">Наставники</a>
               </li>
             </ul>
           </nav>
@@ -386,16 +394,18 @@
                   <img
                     alt="facebook"
                     src="images/facebook_color_white.svg"
-                    class="footer__social-icon" /></a
-                >Facebook
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
               </li>
               <li class="footer__list-item">
                 <a class="footer__column-link" href="https://www.vk.com.com/">
                   <img
                     alt="vk"
                     src="images/vk_color_white.svg"
-                    class="footer__social-icon" /></a
-                >ВКонтакте
+                    class="footer__social-icon"
+                  />ВКонтакте</a
+                >
               </li>
               <li class="footer__list-item">
                 <a
@@ -405,8 +415,9 @@
                   <img
                     alt="instagram"
                     src="images/instagram_color_white.svg"
-                    class="footer__social-icon" /></a
-                >Instagram
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
               </li>
             </ul>
           </nav>
