@@ -1,8 +1,4 @@
 .footer__column_content_copyright {
   color: white;
-  position: relative;
   flex-basis: 711px;
-  justify-content: space-between;
-  flex-direction: column;
-  display: flex;
 }
